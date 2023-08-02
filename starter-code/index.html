@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body>
+    <header class="primary-header | container flex flex--sb">
+      <img src="./assets/logo.svg" alt="logo" />
+      <button class="button consultation-btn consultation-btn--black">
+        Free Consultation
+      </button>
+    </header>
+
+    <main>
+      <section class="page-introduction flex">
+        <h1 class="page-introduction__title">Design solutions made easy</h1>
+        <p class="page-introduction__text">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </section>
+
+      <section class="skills-gallery | container grid">
+        <div class="gallery-item graphic-design">
+          <h3 class="gallery-item__text">Graphic Design</h3>
+        </div>
+        <div class="gallery-item ui-ux">
+          <h3 class="gallery-item__text">UI/UX</h3>
+        </div>
+        <div class="gallery-item apps">
+          <h3 class="gallery-item__text">Apps</h3>
+        </div>
+        <div class="gallery-item photography">
+          <h3 class="gallery-item__text">Photography</h3>
+        </div>
+        <div class="gallery-item illustrations">
+          <h3 class="gallery-item__text">Illustrations</h3>
+        </div>
+        <div class="gallery-item motion-graphics">
+          <h3 class="gallery-item__text">Motion Graphics</h3>
+        </div>
+      </section>
+
+      <section class="amy | container even-columns-mb">
+        <img
+          src="./assets/image-amy.webp"
+          alt="face of person smiling"
+          class="amy__img"
+        />
+        <div class="amy__info">
+          <h1 class="amy__main">
+            I’m Amy, and I’d love to work on your next project
+          </h1>
+          <p class="amy__paragraph">
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <button class="button consultation-btn consultation-btn--red">
+            Free Consultation
+          </button>
+        </div>
+      </section>
+      <section class="coursel-container">
+        <h2 class="coursel-title">My Work</h2>
+        <div class="coursel">
+          <div class="coursel-item offscreenLeft" data-i="0">
+            <img
+              src="./assets/image-slide-1.jpg"
+              alt="coursel image"
+              class="coursel-item__img"
+            />
+          </div>
+          <div class="coursel-item previous" data-i="1">
+            <img
+              src="./assets/image-slide-2.jpg"
+              alt="coursel image"
+              class="coursel-item__img"
+            />
+          </div>
+          <div class="coursel-item active" data-i="2">
+            <img
+              src="./assets/image-slide-3.jpg"
+              alt="coursel image"
+              class="coursel-item__img"
+            />
+          </div>
+          <div class="coursel-item next" data-i="3">
+            <img
+              src="./assets/image-slide-4.jpg"
+              alt="coursel image"
+              class="coursel-item__img"
+            />
+          </div>
+          <div class="coursel-item offscreenRight" data-i="4">
+            <img
+              src="./assets/image-slide-5.jpg"
+              alt="coursel image"
+              class="coursel-item__img"
+            />
+          </div>
+        </div>
+        <div class="coursel-btn-container flex">
+          <button class="button coursel-btn coursel-left">
+            <img src="./assets/icon-arrow-left.svg" alt="left icon" />
+          </button>
+          <button class="button coursel-btn coursel-right">
+            <img src="./assets/icon-arrow-right.svg" alt="right icon" />
+          </button>
+        </div>
+      </section>
+
+      <section class="book | container">
+        <div class="book__text-container">
+          <h2 class="book__text">Book a call with me</h2>
+          <p class="book__info">
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <button class="book__btn button consultation-btn consultation-btn--red">
+          Free Consultation
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer | container flex flex--sb">
+      <img src="./assets/logo.svg" alt="logo" />
+      <button class="button consultation-btn consultation-btn--black">
+        Free Consultation
+      </button>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
